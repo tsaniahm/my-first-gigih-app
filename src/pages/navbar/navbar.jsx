@@ -12,7 +12,7 @@ const Navbar = () => {
                         to='/'
                     // style={{ paddingLeft: 13, textDecoration: 'none', color: 'white' }}
                     >
-                        GHIPHY
+                        GHIPHY.
                     </Link>
                 </li>
                 <li className="nav-item">
