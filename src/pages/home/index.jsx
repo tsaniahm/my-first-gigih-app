@@ -56,7 +56,7 @@ const Index = () => {
                                 />
                             ) :
                             <h3 className="not-found">
-                                No Result Found for "{input}", 
+                                No Result Found for "{input}"!!, 
                                 Please make sure your words spelled corectly or use less or different keywords. 
                             </h3>
                     }
