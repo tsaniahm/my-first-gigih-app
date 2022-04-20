@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.search-section form{
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-section form input {
+    height: 40px;
+    width:100%;
+    border-radius: 30px;
+    padding-left: 20px;
+
+}
+
+.search-button {
+    padding: 10px 30px;
+    background-color: #1db954;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #1db954;
+    border-radius: 30px;
+}
+.search-button:hover {
+    background-color: white;
+    border: 2px solid #1db954;
+    color: #1db954;
+}
+
+.gif-container {
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 1rem 3.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0 30px;
+    width: 93%;
+}
+
+.not-found{
+    text-align: center;
+    justify-content: center;
+}
+
+.image-section {
+    width: 100%;
+    padding: 20px 20px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 7%, rgba(30,22,57,1) 88%, rgba(50,35,97,1) 96%, rgba(66,48,128,1) 100%);
+    border-radius: 10px;
+}
+
+.image-section:hover {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 7%, rgba(30,22,57,1) 100%, rgba(50,35,97,1) 100%, rgba(66,48,128,1) 100%);
+}
+
+
+.image-section img {
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-section p {
+    font-weight: bold;
+    color: grey;
+    margin-top: -15px;
+}
+
+.image-section button {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.image-section button:hover {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: white;
+    color: #1db954;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-image {
+    width: 40px;
+}
+
+.nav-home {
+    font-weight:bold;
+    font-size: 2em;
+    margin-left: 5px;
+    margin-right: 35px;
+    
+}
+
+.nav-home a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover{
+    color: #6e64ff;
+}
+
+.link-router:hover {
+    color: #6e64ff;
+    text-decoration: none;
+}
+
+
+.trending-container {
+    text-align: center;
+}
+
+.header {
+    background-image: url('/public/images/meme.jpg');
+    min-height: 300px;
+    margin: 30px 70px;
+    background-size: cover;
+}
+
+.trending-title {
+    margin-bottom: -30px;
+}
+
+.trending-title ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.trending-title ul li img {
+    width: 50px;
+}
+
+.trending-title ul li h2 {
+    margin-left: 20px;
+}
